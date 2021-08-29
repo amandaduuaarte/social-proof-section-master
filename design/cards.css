@@ -1,0 +1,13 @@
+.startContainer{
+    align-self: center;
+    flex-direction:column;
+    margin: 10% 4%;
+    justify-content:flex-end;
+}
+
+.stars{
+    align-items: center;
+    height:70px;
+    background-color:red;
+    
+}
