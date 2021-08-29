@@ -12,6 +12,7 @@
 /* --------------- Divs ------------------------ */
 .container{
     grid-template-rows: 50% 50%;
+    margin: 5% 3% 2% 5%;
 }
 .initial{
     grid-template-columns: 1fr 1fr;

@@ -5,30 +5,31 @@
     justify-content:flex-end;
     
 }
-
 .stars{
     align-items: center;
     height:35px;
-    width:340px;
+    width:370px;
     justify-content: space-around;
     border-radius: 5px;
     margin-bottom: 3%;
-    color: hsl(303, 10%, 53%);
+    color: hsl(300, 43%, 22%);
+    font-size: 13px;
     font-weight: bold;
     background-color:hsl(300, 24%, 96%);
-    
+    flex-direction: row;
     
 }
 #second{
     margin-left:15%;
-    flex-direction: row;
+    
 }
 #third{
-    margin-left:22%;
+    margin-left:23%;
+
 }
 #icon{
     justify-content:flex-start;
-    float: right;
-    height:15px;
+    margin-right:0;
+    height:13px;
     background-color:hsl(300, 24%, 96%);
 }
