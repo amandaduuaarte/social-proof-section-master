@@ -1,5 +1,26 @@
-/*@media (min-width: 320px) and (max-width: 800px) {
-    body {
-     DECLARAÇÃO CSS DESEJADA
+/*@media (min-width: 375px) and (max-width:1400px){
+    .startContainer{
+        align-self: center;
+        flex-direction:column;
+        margin: 10% 4%;
+        justify-content:center;
+    }
+    .stars{
+        align-items: center;
+        height:35px;
+        width:340px;
+        justify-content: center;
+        border-radius: 5px;
+        margin-bottom: 3%;
+        background-color:hsl(300, 24%, 96%);
+      background-color:hsl(303, 10%, 53%);
+        
+      #second{
+          margin-left:0%;
+      }
+      #third{
+          margin-left:0%;
+      }
     }
    }*/
+   

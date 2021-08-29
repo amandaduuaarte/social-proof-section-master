@@ -3,11 +3,32 @@
     flex-direction:column;
     margin: 10% 4%;
     justify-content:flex-end;
+    
 }
 
 .stars{
     align-items: center;
-    height:70px;
-    background-color:red;
+    height:35px;
+    width:340px;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    color: hsl(303, 10%, 53%);
+    font-weight: bold;
+    background-color:hsl(300, 24%, 96%);
     
+    
+}
+#second{
+    margin-left:15%;
+    flex-direction: row;
+}
+#third{
+    margin-left:22%;
+}
+#icon{
+    justify-content:flex-start;
+    float: right;
+    height:15px;
+    background-color:hsl(300, 24%, 96%);
 }

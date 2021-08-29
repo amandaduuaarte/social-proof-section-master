@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    background-color:#F5F5F5;
+    background-color:hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -11,7 +11,6 @@
 
 /* --------------- Divs ------------------------ */
 .container{
-    background-color:#F5F5F5;
     grid-template-rows: 50% 50%;
 }
 .initial{
@@ -36,7 +35,7 @@
     color:hsl(303, 10%, 53%);
     /*margin: 0% 5% 0% 5%;*/
     flex-direction: row;
-    margin: 1% 4%;
+    margin: 3% 4%;
     justify-content: flex-start;
 
 }
