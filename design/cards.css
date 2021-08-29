@@ -33,3 +33,39 @@
     height:13px;
     background-color:hsl(300, 24%, 96%);
 }
+.cardsContainer{
+    display:grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+    background-color:red;
+    justify-content:space-between;
+    margin: 0 0 40px 0;
+    color: hsl(300, 24%, 96%);
+    
+}
+.cards{
+    height:200px;
+    width:300px;
+    background-color:hsl(300, 43%, 22%);
+    font-size: 10px;
+}
+.cardTitle{
+    font-size:15px;
+    background-color:hsl(300, 43%, 22%);
+}
+.cardSubTitle{
+    background-color:hsl(300, 43%, 22%);
+}
+.cardText{
+    background-color:hsl(300, 43%, 22%);
+}
+.cardHeader{
+    flex-direction:row;
+}
+#cardsImg{
+    margin:10% 0px 0px 6%;
+    height:50px;
+    width:50px;
+    border-radius: 55%;
+}
