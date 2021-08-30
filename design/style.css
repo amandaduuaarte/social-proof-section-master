@@ -11,8 +11,10 @@
 
 /* --------------- Divs ------------------------ */
 .container{
+    display:grid;
     grid-template-rows: 50% 50%;
     margin: 5% 3% 2px 5%;
+    flex-direction: column;
 }
 .initial{
     grid-template-columns: 1fr 1fr;
