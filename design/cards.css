@@ -38,9 +38,9 @@
 /* --------------- Cards Prof --------------*/
 
 .containerCard{
-    display:grid;
+    display:flex;
     grid-template-columns: 320px 320px 320px;
-    flex-direction:column;
+    flex-direction:row;
     flex-wrap: wrap;
     margin-top:0;
     justify-content:space-around;
@@ -61,11 +61,12 @@
     align-items: flex-start;
 }
 .body{
-    margin-top: 6.5%;
     width:280px;
+    margin-top: 3%;
+    margin-bottom: 5%;
     align-items: center;
     text-align: justify;
-    position: absolute;
+    position: relative;
     justify-content:space-around;
 }
 #cardsImg{
@@ -98,4 +99,11 @@
     font-size:13px;
     font-weight: bold;
     margin: 4% 0 0 15%;
+}
+/* --------------- Especificidades dos cards ---------------------------*/
+#card-2{
+    margin-top:3%;
+}
+#card-3{
+    margin-top:6%;
 }
