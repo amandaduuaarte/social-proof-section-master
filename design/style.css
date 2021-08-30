@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    background-color:hsl(0, 0%, 100%);
+    /*background-color:hsl(0, 0%, 100%);*/
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -12,7 +12,7 @@
 /* --------------- Divs ------------------------ */
 .container{
     grid-template-rows: 50% 50%;
-    margin: 5% 3% 5px 5%;
+    margin: 5% 3% 2px 5%;
 }
 .initial{
     grid-template-columns: 1fr 1fr;

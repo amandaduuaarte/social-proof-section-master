@@ -1,3 +1,4 @@
+/* -------------------- cards initial (stars)--------------------- */
 .startContainer{
     align-self: center;
     flex-direction:column;
@@ -33,39 +34,67 @@
     height:13px;
     background-color:hsl(300, 24%, 96%);
 }
-.cardsContainer{
+
+/* --------------- Cards Prof --------------*/
+
+.containerCard{
     display:grid;
+    grid-template-columns: 320px 320px 320px;
+    flex-direction:column;
     flex-wrap: wrap;
-    grid-template-columns: 1fr 1fr 1fr;
-    flex-direction: row;
-    background-color:red;
-    justify-content:space-between;
-    margin: 0 0 40px 0;
-    color: hsl(300, 24%, 96%);
-    
+    justify-content:space-around;
 }
-.cards{
-    height:200px;
-    width:300px;
-    background-color:hsl(300, 43%, 22%);
-    font-size: 10px;
-}
-.cardTitle{
-    font-size:15px;
-    background-color:hsl(300, 43%, 22%);
-}
-.cardSubTitle{
-    background-color:hsl(300, 43%, 22%);
-}
-.cardText{
-    background-color:hsl(300, 43%, 22%);
-}
-.cardHeader{
+.card{
     flex-direction:row;
+    grid-template: 50px 1fr / 100px 1fr;
+    font-size:15px;
+    height:200px;
+    width:320px;
+    background-color:hsl(300, 43%, 22%);
+    border-radius:8px;
+}
+.head{
+    margin-top:10px;
+    flex-direction: column;
+    width:200px;
+    align-items: flex-start;
+}
+.body{
+    margin-top: 6.5%;
+    width:280px;
+    align-items: center;
+    text-align: justify;
+    position: absolute;
+    justify-content:space-around;
 }
 #cardsImg{
-    margin:10% 0px 0px 6%;
-    height:50px;
-    width:50px;
-    border-radius: 55%;
+    height:40px;
+    width: 40px;
+    border-radius: 60%;
+    margin: 28px 0px 0px 20px;
+    position: absolute;
+    flex-direction: row;
+    align-self: flex-start;
+}
+.cardsTexts{
+    font-size:15px;
+    justify-content:space-around;
+    color:hsl(300, 24%, 96%);
+}
+#titleCard{
+    font-size:13px;
+    margin-top:18%;
+    margin-left: 35%;
+
+}
+#subTitleCard{
+    color:hsl(333, 80%, 67%);
+    font-size:11px;
+    margin-left: 35%;
+
+}
+#infoCards{
+    font-size:13px;
+    font-weight: bold;
+    margin: 4% 0 0 15%;
 }
