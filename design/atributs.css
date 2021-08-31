@@ -37,7 +37,7 @@
         
     }
     .stars{
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         text-align: center;
         height:80px;
@@ -49,24 +49,19 @@
         font-weight: bold;
         background-color:hsl(300, 24%, 96%);   
     }
-    .mobileText{
-        grid-row-start: 2;
-        text-align: center;
-
-    }
     #second{
         margin-left:0;
     }
     #third{
         margin-left:0;
     }
-    #icon{
-        flex-direction:column;
-        justify-content:center;
-        margin-right:0;
-        height:13px;
-        background-color:hsl(300, 24%, 96%);
+    .iconsStars{
+        flex-direction: row;
+        align-content: center;
+        justify-content:space-between;
+        margin: 3% 10% 8% 10%;
     }
+    
     .attribution {
         background-color:  hsl(333, 80%, 67%);
         text-align: center;

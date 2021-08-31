@@ -10,7 +10,6 @@
     align-items: center;
     height:35px;
     width:370px;
-    justify-content: space-around;
     border-radius: 5px;
     margin-bottom: 3%;
     color: hsl(300, 43%, 22%);
@@ -29,10 +28,15 @@
 
 }
 #icon{
-    justify-content:flex-start;
-    margin-right:0;
     height:13px;
     background-color:hsl(300, 24%, 96%);
+    margin-right: 5px;
+}
+.iconsStars{
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content:space-between;
+    margin: 0 8% 0 10%;
 }
 
 /* --------------- Cards Prof --------------*/
